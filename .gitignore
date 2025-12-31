@@ -4,6 +4,10 @@ target/
 !**/src/test/**/target/
 .kotlin
 
+
+### log at local###
+app.log
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -12,6 +16,8 @@ target/
 *.iws
 *.iml
 *.ipr
+Project_Default.xml
+
 
 ### Eclipse ###
 .apt_generated

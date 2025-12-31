@@ -1,5 +1,6 @@
 package com.ben.annotation0;
 
+import com.ben.annotations.NotEmpty;
 
 public class Test0 {
 
@@ -8,8 +9,10 @@ public class Test0 {
         this.count = count;
     }
 
+    @NotEmpty
     private String name; // OK
 
+    @NotEmpty
     private int count; // ❌ 會編譯錯誤：只能用在 String
 
 
@@ -31,8 +34,3 @@ public class Test0 {
         System.out.println("hello");
     }
 }
-
-
-
-
-

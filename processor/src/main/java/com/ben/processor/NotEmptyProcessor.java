@@ -1,5 +1,7 @@
 package com.ben.processor;
 
+import com.ben.annotations.NotEmpty;
+
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
@@ -11,7 +13,7 @@ import javax.tools.Diagnostic;
 import java.util.Set;
 
 
-@SupportedAnnotationTypes("com.ben.annotation0.NotEmpty")
+@SupportedAnnotationTypes("com.ben.annotations.NotEmpty")
 @SupportedSourceVersion(SourceVersion.RELEASE_17)
 public class NotEmptyProcessor extends AbstractProcessor {
 
