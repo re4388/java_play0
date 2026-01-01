@@ -6,6 +6,7 @@
   <component name="EntryPointsManager">
     <writeAnnotations>
       <writeAnnotation name="com.ben.annotation0.NotEmpty" />
+      <writeAnnotation name="com.ben.annotations.NotEmpty" />
     </writeAnnotations>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
@@ -14,6 +15,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/annotations/pom.xml" />
+        <option value="$PROJECT_DIR$/processor/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">

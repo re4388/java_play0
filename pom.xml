@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>demo0</module>
-        <module>annotations</module>
-        <module>processor</module>
+<!--        <module>annotations</module>-->
+<!--        <module>processor</module>-->
     </modules>
 
     <properties>
