@@ -6,7 +6,7 @@ target/
 
 
 ### log at local###
-app.log
+#app.log
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

@@ -6,13 +6,15 @@ import org.slf4j.LoggerFactory;
 
 public class LogBackExample {
 
-    private static final Logger LOG = LoggerFactory.getLogger(LogBackExample.class);
+    private static final Logger logger = LoggerFactory.getLogger(LogBackExample.class);
+
 
     public static void main(String[] args) {
-        LOG.trace("This is TRACE");
-        LOG.debug("This is DEBUG");
-        LOG.info("This is INFO");
-        LOG.warn("This is WARN");
-        LOG.error("This is ERROR");
+
+        logger.trace("This is TRACE");
+        logger.debug("This is DEBUG");
+        logger.info("This is INFO");
+        logger.warn("This is WARN");
+        logger.error("This is ERROR");
     }
 }

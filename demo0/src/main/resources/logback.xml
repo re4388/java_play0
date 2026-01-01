@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- 設定輸出格式 -->
+    <property name="LOG_PATTERN"
+              value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"/>
+
+    <!-- 控制台輸出 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 控制台，只顯示 INFO 以上 -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d %green([%thread]) %highlight(%level) %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 寫入檔案，並每日區隔 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <!-- 主檔案路徑 -->
+        <file>logs/app.log</file>
+
+        <!-- 依日期切割 + 自動壓縮 (zip/gz 可選擇) -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--       自動壓縮 to gz     -->
+            <fileNamePattern>logs/app.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <!-- 保留 30 天的日誌 -->
+            <maxHistory>30</maxHistory>
+            <!-- 限制總儲存空間 1GB -->
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+
+        <!-- 依size切割 + 自動分檔 -->
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>3MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d %green([%thread]) %highlight(%level) %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 設定 Log Level -->
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>
