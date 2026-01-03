@@ -1,4 +1,4 @@
-package com.ben.jacksondemo;
+package com.ben.jacksonProbe;
 
 // Note: can use getters/setters as well; here we just use public fields directly:
 public class MyValue {

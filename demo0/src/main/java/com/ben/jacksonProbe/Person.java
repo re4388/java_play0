@@ -1,4 +1,4 @@
-package com.ben.jacksondemo;
+package com.ben.jacksonProbe;
 
 public record Person(String name) {
 }
