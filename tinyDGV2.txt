@@ -1,0 +1,24 @@
+9
+13
+light_red
+dark_orange
+bright_white
+muted_yellow
+shiny_gold
+dark_olive
+vibrant_plum
+faded_blue
+dotted_black
+light_red muted_yellow
+light_red bright_white
+dark_orange muted_yellow
+dark_orange bright_white
+bright_white shiny_gold
+muted_yellow faded_blue
+muted_yellow shiny_gold
+shiny_gold dark_olive
+shiny_gold vibrant_plum
+dark_olive faded_blue
+dark_olive dotted_black
+vibrant_plum faded_blue
+vibrant_plum dotted_black

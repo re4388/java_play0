@@ -14,12 +14,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sprintBootExcelDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/sprintBootExcelDemo/springBootExcelDemo_1/pom.xml" />
+        <option value="$PROJECT_DIR$/excelDemo2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/annotations/pom.xml" />
+        <option value="$PROJECT_DIR$/my_jlox/pom.xml" />
         <option value="$PROJECT_DIR$/processor/pom.xml" />
+        <option value="$PROJECT_DIR$/sprintBootExcelDemo/springBootExcelDemo_1/pom.xml" />
       </set>
     </option>
   </component>

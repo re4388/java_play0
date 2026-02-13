@@ -35,8 +35,11 @@
             <artifactId>byte-buddy</artifactId>
             <version>1.14.12</version>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.5</version>
+        </dependency>
         <dependency>
             <groupId>com.ben</groupId>
             <artifactId>annotations</artifactId>
