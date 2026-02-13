@@ -1,0 +1,2056 @@
+594
+1460
+drab_tan
+clear_gold
+vibrant_lime
+faded_gold
+plaid_aqua
+clear_black
+pale_lime
+dim_salmon
+faded_salmon
+dim_turquoise
+dull_gray
+striped_gold
+vibrant_yellow
+light_fuchsia
+light_lavender
+faded_olive
+plaid_cyan
+striped_tomato
+drab_gold
+clear_teal
+dim_red
+dull_teal
+striped_orange
+bright_fuchsia
+plaid_chartreuse
+dark_silver
+dim_maroon
+shiny_violet
+clear_orange
+muted_olive
+dark_chartreuse
+shiny_indigo
+dotted_silver
+clear_gray
+dotted_lime
+dark_turquoise
+shiny_teal
+vibrant_cyan
+drab_magenta
+bright_yellow
+dull_orange
+plaid_tomato
+dull_black
+light_olive
+posh_turquoise
+muted_salmon
+muted_black
+shiny_turquoise
+muted_purple
+dotted_red
+striped_black
+striped_fuchsia
+drab_indigo
+drab_brown
+light_gray
+dull_coral
+pale_purple
+mirrored_black
+wavy_crimson
+dotted_violet
+clear_lavender
+wavy_yellow
+plaid_red
+bright_coral
+bright_brown
+posh_coral
+bright_aqua
+drab_lime
+striped_tan
+muted_violet
+striped_brown
+dark_lime
+wavy_bronze
+mirrored_silver
+dim_black
+dark_maroon
+muted_lavender
+bright_cyan
+dark_plum
+posh_yellow
+dull_plum
+shiny_blue
+pale_violet
+posh_fuchsia
+mirrored_bronze
+striped_lavender
+vibrant_silver
+posh_brown
+clear_indigo
+drab_lavender
+dark_brown
+mirrored_plum
+muted_tomato
+wavy_green
+posh_bronze
+dull_purple
+wavy_red
+light_beige
+light_maroon
+vibrant_orange
+clear_blue
+mirrored_fuchsia
+muted_beige
+dark_olive
+clear_tan
+posh_lime
+wavy_beige
+pale_blue
+dull_aqua
+pale_crimson
+dull_lime
+wavy_silver
+pale_cyan
+striped_beige
+dim_plum
+dim_gold
+dull_cyan
+drab_black
+dark_green
+vibrant_teal
+clear_green
+light_violet
+bright_beige
+light_tan
+pale_red
+light_turquoise
+mirrored_chartreuse
+dark_red
+shiny_lime
+posh_black
+posh_salmon
+plaid_salmon
+shiny_orange
+mirrored_yellow
+posh_gray
+shiny_silver
+dark_fuchsia
+plaid_plum
+bright_bronze
+posh_silver
+muted_gold
+striped_chartreuse
+dotted_salmon
+vibrant_bronze
+striped_blue
+dark_orange
+faded_magenta
+bright_silver
+drab_silver
+posh_orange
+plaid_tan
+mirrored_olive
+drab_beige
+bright_maroon
+muted_bronze
+wavy_brown
+shiny_chartreuse
+dull_white
+muted_crimson
+shiny_gray
+dotted_orange
+light_salmon
+shiny_brown
+clear_olive
+mirrored_tan
+pale_tan
+drab_bronze
+drab_teal
+drab_chartreuse
+dim_beige
+faded_cyan
+plaid_fuchsia
+pale_yellow
+light_gold
+posh_olive
+pale_tomato
+pale_bronze
+posh_white
+shiny_coral
+plaid_crimson
+clear_turquoise
+vibrant_green
+shiny_gold
+dim_orange
+dark_tomato
+vibrant_violet
+clear_purple
+muted_fuchsia
+bright_olive
+bright_gold
+mirrored_indigo
+mirrored_maroon
+dull_chartreuse
+pale_salmon
+bright_red
+faded_brown
+dark_lavender
+drab_plum
+vibrant_gray
+plaid_coral
+striped_turquoise
+vibrant_black
+shiny_black
+shiny_olive
+dull_violet
+vibrant_plum
+muted_plum
+shiny_lavender
+mirrored_lavender
+mirrored_blue
+faded_violet
+plaid_olive
+dotted_aqua
+shiny_yellow
+light_silver
+bright_orange
+dim_indigo
+pale_olive
+light_indigo
+faded_turquoise
+pale_chartreuse
+wavy_teal
+clear_brown
+dark_beige
+dotted_bronze
+posh_purple
+clear_silver
+mirrored_crimson
+plaid_bronze
+wavy_fuchsia
+plaid_magenta
+drab_aqua
+striped_yellow
+dark_coral
+dim_silver
+striped_white
+faded_teal
+faded_yellow
+faded_blue
+bright_violet
+dark_purple
+dim_aqua
+clear_bronze
+dull_magenta
+shiny_magenta
+mirrored_teal
+wavy_maroon
+plaid_teal
+plaid_yellow
+bright_tomato
+posh_lavender
+striped_bronze
+vibrant_purple
+posh_aqua
+muted_teal
+faded_fuchsia
+plaid_green
+clear_tomato
+dim_olive
+clear_violet
+plaid_gold
+plaid_lime
+striped_teal
+bright_lavender
+faded_beige
+clear_beige
+dotted_turquoise
+posh_plum
+dotted_beige
+striped_indigo
+clear_cyan
+drab_blue
+dim_coral
+plaid_purple
+vibrant_red
+pale_gray
+wavy_tomato
+dull_green
+wavy_lime
+faded_aqua
+vibrant_olive
+mirrored_violet
+wavy_chartreuse
+light_brown
+plaid_blue
+plaid_beige
+dotted_teal
+dim_green
+bright_green
+plaid_black
+dull_salmon
+faded_lime
+striped_gray
+dull_gold
+wavy_plum
+shiny_green
+dull_crimson
+bright_blue
+dull_lavender
+posh_tomato
+dim_chartreuse
+dotted_lavender
+posh_magenta
+pale_green
+plaid_indigo
+dull_fuchsia
+light_plum
+dotted_olive
+vibrant_maroon
+dim_yellow
+bright_indigo
+wavy_lavender
+dark_bronze
+striped_aqua
+dull_tomato
+pale_gold
+dull_maroon
+pale_teal
+light_coral
+light_magenta
+muted_tan
+clear_yellow
+dotted_crimson
+dull_beige
+posh_cyan
+drab_red
+drab_gray
+plaid_turquoise
+muted_red
+pale_coral
+drab_green
+dim_gray
+light_tomato
+dark_white
+pale_maroon
+striped_crimson
+vibrant_gold
+muted_lime
+drab_cyan
+drab_purple
+dotted_gold
+dotted_green
+wavy_blue
+bright_black
+bright_chartreuse
+dim_purple
+faded_lavender
+bright_purple
+pale_fuchsia
+dark_magenta
+bright_salmon
+vibrant_coral
+bright_gray
+faded_green
+bright_magenta
+vibrant_crimson
+striped_red
+vibrant_indigo
+shiny_purple
+muted_gray
+dark_teal
+faded_indigo
+mirrored_orange
+clear_red
+dark_violet
+striped_purple
+plaid_violet
+mirrored_gold
+shiny_crimson
+wavy_purple
+dark_crimson
+posh_gold
+dull_yellow
+dim_crimson
+drab_white
+posh_red
+drab_turquoise
+dark_yellow
+light_bronze
+vibrant_blue
+dotted_cyan
+faded_purple
+drab_crimson
+drab_fuchsia
+clear_maroon
+dotted_white
+dull_red
+light_green
+wavy_aqua
+dull_tan
+pale_beige
+light_teal
+light_aqua
+dim_tan
+light_orange
+vibrant_brown
+faded_crimson
+mirrored_turquoise
+faded_tomato
+wavy_black
+dark_cyan
+dim_brown
+muted_indigo
+mirrored_cyan
+vibrant_tan
+clear_white
+shiny_white
+drab_orange
+striped_green
+muted_brown
+plaid_brown
+drab_yellow
+faded_black
+muted_yellow
+dark_aqua
+dull_blue
+mirrored_white
+muted_blue
+muted_coral
+pale_plum
+muted_green
+dim_violet
+faded_tan
+light_yellow
+clear_fuchsia
+posh_violet
+dotted_fuchsia
+dotted_plum
+posh_green
+vibrant_magenta
+drab_maroon
+drab_coral
+dotted_tan
+striped_cyan
+pale_silver
+striped_silver
+vibrant_chartreuse
+bright_turquoise
+bright_tan
+mirrored_green
+dim_white
+muted_white
+posh_maroon
+posh_chartreuse
+pale_lavender
+light_blue
+dark_gold
+shiny_fuchsia
+muted_orange
+shiny_plum
+posh_blue
+wavy_magenta
+striped_salmon
+plaid_silver
+dim_bronze
+dim_tomato
+wavy_indigo
+wavy_gold
+vibrant_white
+dim_magenta
+dark_blue
+plaid_gray
+faded_gray
+faded_maroon
+clear_crimson
+muted_aqua
+mirrored_brown
+dotted_purple
+dotted_indigo
+wavy_orange
+muted_maroon
+clear_salmon
+wavy_turquoise
+drab_salmon
+dotted_yellow
+mirrored_aqua
+shiny_bronze
+wavy_tan
+mirrored_magenta
+mirrored_lime
+clear_magenta
+light_red
+light_white
+vibrant_salmon
+dotted_magenta
+striped_violet
+muted_magenta
+muted_turquoise
+dim_lime
+dotted_maroon
+light_purple
+mirrored_beige
+vibrant_lavender
+pale_brown
+vibrant_fuchsia
+dull_silver
+faded_red
+faded_coral
+shiny_cyan
+dim_cyan
+dotted_tomato
+muted_cyan
+pale_white
+shiny_beige
+plaid_maroon
+dotted_coral
+light_cyan
+shiny_tomato
+faded_silver
+posh_tan
+pale_turquoise
+muted_silver
+clear_coral
+shiny_tan
+dark_salmon
+plaid_orange
+dark_indigo
+dotted_brown
+wavy_gray
+posh_crimson
+drab_tomato
+bright_crimson
+vibrant_beige
+dim_teal
+striped_olive
+light_black
+dull_brown
+shiny_salmon
+clear_aqua
+clear_lime
+dull_indigo
+shiny_aqua
+wavy_cyan
+dull_bronze
+striped_coral
+vibrant_tomato
+dotted_chartreuse
+dull_turquoise
+plaid_lavender
+wavy_white
+dim_blue
+shiny_red
+pale_aqua
+clear_chartreuse
+plaid_white
+dotted_blue
+bright_plum
+pale_black
+striped_magenta
+light_crimson
+dark_tan
+drab_olive
+wavy_violet
+faded_white
+mirrored_purple
+mirrored_gray
+dark_gray
+pale_indigo
+bright_white
+striped_lime
+mirrored_tomato
+wavy_coral
+dim_fuchsia
+light_lime
+mirrored_red
+light_chartreuse
+wavy_salmon
+faded_chartreuse
+posh_beige
+vibrant_aqua
+wavy_olive
+dotted_gray
+mirrored_salmon
+faded_orange
+pale_orange
+posh_teal
+bright_teal
+striped_maroon
+drab_violet
+pale_magenta
+shiny_maroon
+vibrant_turquoise
+dark_black
+faded_plum
+dotted_black
+mirrored_coral
+muted_chartreuse
+clear_plum
+faded_bronze
+bright_lime
+dull_olive
+posh_indigo
+striped_plum
+dim_lavender
+drab_tan clear_gold
+vibrant_lime clear_black
+vibrant_lime plaid_aqua
+vibrant_lime faded_gold
+pale_lime faded_salmon
+pale_lime dim_salmon
+pale_lime dim_turquoise
+dull_gray striped_gold
+dull_gray vibrant_yellow
+light_fuchsia striped_tomato
+light_fuchsia light_lavender
+light_fuchsia faded_olive
+light_fuchsia plaid_cyan
+drab_gold clear_teal
+dim_red dull_teal
+striped_orange plaid_chartreuse
+striped_orange dim_maroon
+striped_orange bright_fuchsia
+striped_orange dark_silver
+shiny_violet muted_olive
+shiny_violet dark_chartreuse
+shiny_violet shiny_indigo
+shiny_violet clear_orange
+faded_olive dotted_silver
+faded_olive clear_gray
+dotted_lime shiny_teal
+dotted_lime striped_orange
+dotted_lime dark_turquoise
+dotted_lime vibrant_cyan
+drab_magenta bright_yellow
+drab_magenta plaid_tomato
+drab_magenta dull_orange
+dull_black light_olive
+posh_turquoise shiny_turquoise
+posh_turquoise muted_black
+posh_turquoise muted_salmon
+muted_purple dotted_red
+striped_black striped_fuchsia
+striped_black drab_indigo
+striped_black dark_turquoise
+drab_brown light_gray
+drab_brown clear_gray
+drab_brown dull_coral
+pale_purple mirrored_black
+pale_purple wavy_crimson
+dark_turquoise dotted_violet
+clear_lavender plaid_red
+clear_lavender light_olive
+clear_lavender faded_salmon
+clear_lavender wavy_yellow
+bright_coral bright_brown
+posh_coral dull_teal
+posh_coral bright_aqua
+drab_lime striped_tan
+drab_lime muted_violet
+striped_brown dark_lime
+striped_brown clear_orange
+wavy_bronze posh_coral
+wavy_bronze mirrored_silver
+dim_black muted_lavender
+dim_black dark_maroon
+dim_black dark_plum
+dim_black bright_cyan
+posh_yellow dull_plum
+posh_yellow plaid_tomato
+posh_yellow shiny_blue
+pale_violet plaid_red
+pale_violet posh_fuchsia
+mirrored_bronze striped_lavender
+vibrant_silver clear_indigo
+vibrant_silver posh_brown
+vibrant_silver dotted_silver
+vibrant_silver drab_lavender
+dark_brown mirrored_plum
+dark_brown muted_tomato
+dark_brown muted_violet
+wavy_green dull_purple
+wavy_green wavy_red
+wavy_green posh_bronze
+light_beige light_maroon
+light_beige clear_blue
+light_beige mirrored_fuchsia
+light_beige vibrant_orange
+wavy_crimson dark_olive
+wavy_crimson muted_beige
+clear_tan wavy_yellow
+posh_lime wavy_beige
+pale_blue clear_indigo
+pale_blue dull_aqua
+pale_blue pale_crimson
+pale_blue dull_lime
+wavy_silver pale_cyan
+striped_beige dim_plum
+striped_beige clear_gray
+dim_gold dark_green
+dim_gold dull_cyan
+dim_gold drab_black
+vibrant_teal light_violet
+vibrant_teal bright_beige
+vibrant_teal clear_green
+light_tan pale_red
+light_tan mirrored_chartreuse
+light_tan light_turquoise
+dark_red posh_black
+dark_red clear_blue
+dark_red shiny_lime
+posh_salmon vibrant_silver
+posh_salmon shiny_orange
+posh_salmon plaid_salmon
+posh_salmon dark_turquoise
+mirrored_yellow dark_brown
+mirrored_yellow posh_gray
+mirrored_yellow shiny_silver
+dark_fuchsia plaid_plum
+bright_bronze dark_turquoise
+posh_silver dull_aqua
+posh_silver striped_chartreuse
+posh_silver posh_gray
+posh_silver muted_gold
+dotted_salmon striped_fuchsia
+dotted_salmon striped_blue
+dotted_salmon vibrant_bronze
+dark_orange faded_magenta
+bright_silver drab_silver
+posh_orange plaid_tan
+posh_orange light_tan
+mirrored_olive posh_black
+mirrored_olive dull_cyan
+mirrored_olive striped_chartreuse
+drab_beige bright_maroon
+drab_beige dark_green
+muted_bronze clear_indigo
+muted_bronze clear_green
+dark_lime wavy_brown
+dark_olive muted_gold
+dark_olive shiny_chartreuse
+dull_white light_maroon
+dull_white muted_crimson
+shiny_gray striped_orange
+shiny_gray dim_maroon
+dotted_orange light_salmon
+dotted_orange dull_teal
+dotted_orange shiny_brown
+dotted_orange muted_salmon
+clear_olive pale_tan
+clear_olive mirrored_tan
+drab_bronze drab_teal
+drab_bronze dark_green
+drab_chartreuse dim_beige
+faded_cyan clear_gold
+plaid_fuchsia pale_yellow
+light_gold pale_tomato
+light_gold posh_olive
+light_gold faded_salmon
+light_gold pale_cyan
+pale_bronze posh_white
+shiny_coral clear_turquoise
+shiny_coral plaid_crimson
+vibrant_green dark_tomato
+vibrant_green plaid_chartreuse
+vibrant_green shiny_gold
+vibrant_green dim_orange
+vibrant_violet bright_aqua
+vibrant_violet clear_purple
+muted_fuchsia bright_yellow
+bright_olive bright_gold
+bright_olive plaid_aqua
+bright_olive mirrored_indigo
+bright_olive dull_black
+mirrored_maroon dull_chartreuse
+pale_salmon bright_red
+pale_salmon muted_gold
+pale_salmon mirrored_tan
+pale_salmon muted_salmon
+faded_brown muted_olive
+faded_brown plaid_tomato
+faded_brown dull_orange
+faded_brown dark_silver
+dark_lavender dark_tomato
+dark_lavender drab_plum
+dark_lavender dim_gold
+dark_lavender vibrant_gray
+plaid_coral striped_turquoise
+plaid_coral faded_salmon
+drab_black vibrant_black
+shiny_black dull_violet
+shiny_black vibrant_plum
+shiny_black shiny_olive
+shiny_black posh_gray
+muted_plum dark_plum
+muted_plum dull_violet
+muted_plum pale_tomato
+muted_plum shiny_brown
+shiny_lavender mirrored_lavender
+mirrored_blue plaid_olive
+mirrored_blue faded_violet
+dotted_aqua shiny_yellow
+light_lavender dark_maroon
+light_lavender bright_maroon
+light_lavender shiny_lime
+light_lavender light_silver
+bright_orange striped_gold
+bright_orange dotted_violet
+muted_tomato clear_blue
+muted_tomato mirrored_fuchsia
+dim_indigo light_indigo
+dim_indigo posh_brown
+dim_indigo pale_olive
+faded_turquoise light_olive
+faded_turquoise pale_chartreuse
+wavy_teal dark_beige
+wavy_teal clear_brown
+dotted_bronze wavy_brown
+posh_purple bright_maroon
+posh_purple shiny_indigo
+posh_purple clear_silver
+dull_violet vibrant_black
+drab_indigo light_beige
+mirrored_crimson muted_lavender
+mirrored_crimson mirrored_olive
+mirrored_crimson pale_chartreuse
+mirrored_crimson plaid_bronze
+mirrored_tan dark_red
+mirrored_tan posh_brown
+mirrored_tan faded_salmon
+wavy_fuchsia drab_plum
+wavy_fuchsia plaid_magenta
+wavy_fuchsia pale_crimson
+wavy_fuchsia drab_aqua
+striped_yellow dark_coral
+striped_yellow dim_silver
+striped_white faded_teal
+striped_white posh_black
+striped_white faded_yellow
+striped_white vibrant_yellow
+light_turquoise dark_red
+light_turquoise posh_white
+light_turquoise vibrant_bronze
+faded_blue dark_purple
+faded_blue clear_indigo
+faded_blue muted_salmon
+faded_blue bright_violet
+dim_aqua plaid_red
+dim_aqua dull_magenta
+dim_aqua posh_gray
+dim_aqua clear_bronze
+shiny_magenta mirrored_teal
+wavy_maroon striped_yellow
+wavy_maroon dull_cyan
+wavy_maroon light_turquoise
+plaid_teal plaid_yellow
+plaid_teal light_olive
+plaid_teal vibrant_green
+bright_tomato bright_maroon
+bright_tomato clear_blue
+bright_tomato posh_lavender
+bright_tomato shiny_lime
+mirrored_lavender drab_plum
+mirrored_lavender bright_maroon
+mirrored_lavender striped_bronze
+mirrored_lavender faded_violet
+vibrant_purple dull_plum
+vibrant_purple wavy_yellow
+posh_aqua pale_tomato
+posh_aqua plaid_teal
+posh_aqua muted_teal
+faded_fuchsia drab_gold
+faded_fuchsia dark_lavender
+faded_fuchsia plaid_green
+dim_silver clear_tomato
+dim_silver vibrant_yellow
+bright_brown striped_white
+bright_brown shiny_orange
+dim_olive clear_violet
+dim_olive plaid_lime
+dim_olive dim_plum
+dim_olive plaid_gold
+striped_teal bright_lavender
+striped_teal clear_beige
+striped_teal faded_beige
+striped_teal dotted_turquoise
+posh_plum bright_brown
+faded_teal dotted_beige
+faded_teal shiny_teal
+faded_teal bright_red
+faded_teal bright_aqua
+striped_indigo plaid_olive
+striped_indigo plaid_lime
+striped_indigo clear_gray
+striped_indigo clear_cyan
+drab_blue plaid_purple
+drab_blue dim_coral
+light_olive clear_blue
+light_olive clear_purple
+vibrant_red pale_gray
+vibrant_red wavy_tomato
+vibrant_red bright_red
+faded_salmon posh_brown
+shiny_brown dull_green
+shiny_brown wavy_lime
+posh_olive clear_gray
+posh_olive mirrored_lavender
+clear_green vibrant_olive
+clear_green faded_aqua
+clear_green dim_orange
+mirrored_violet wavy_chartreuse
+mirrored_violet wavy_lime
+light_brown dark_lavender
+plaid_blue dotted_teal
+plaid_blue plaid_beige
+dim_green bright_green
+dim_green light_gray
+mirrored_plum plaid_black
+mirrored_plum dark_turquoise
+dotted_turquoise bright_fuchsia
+dotted_turquoise clear_purple
+dull_salmon faded_lime
+dull_salmon dull_gold
+dull_salmon striped_gray
+wavy_plum dull_crimson
+wavy_plum shiny_green
+wavy_plum pale_tomato
+bright_blue dull_lavender
+bright_blue drab_black
+posh_tomato clear_turquoise
+posh_tomato dim_chartreuse
+posh_tomato bright_aqua
+dotted_lavender wavy_red
+posh_magenta light_olive
+faded_beige muted_olive
+faded_beige bright_maroon
+faded_beige bright_fuchsia
+vibrant_plum faded_turquoise
+vibrant_plum plaid_crimson
+pale_green wavy_tomato
+pale_green plaid_indigo
+pale_green pale_crimson
+dull_fuchsia clear_gold
+light_plum striped_white
+light_plum dark_plum
+dotted_olive vibrant_maroon
+striped_gold clear_blue
+striped_gold dull_lime
+striped_gold vibrant_cyan
+bright_violet muted_tomato
+bright_violet shiny_lime
+dim_yellow dull_green
+bright_indigo light_salmon
+bright_indigo plaid_olive
+bright_indigo light_gold
+bright_indigo wavy_lavender
+plaid_lime plaid_crimson
+plaid_lime dark_bronze
+striped_aqua dark_olive
+striped_aqua dull_tomato
+striped_aqua pale_gold
+striped_aqua dark_silver
+dull_maroon light_magenta
+dull_maroon light_coral
+dull_maroon pale_teal
+muted_tan dim_plum
+muted_tan plaid_indigo
+muted_tan dotted_crimson
+muted_tan clear_yellow
+plaid_tan dark_chartreuse
+plaid_tan wavy_beige
+dull_beige striped_brown
+dull_beige posh_yellow
+dull_beige wavy_green
+dull_beige posh_cyan
+posh_cyan faded_yellow
+posh_cyan dark_coral
+drab_red posh_brown
+drab_red wavy_lime
+drab_gray plaid_turquoise
+drab_gray mirrored_yellow
+muted_red dull_plum
+muted_red pale_coral
+muted_red shiny_silver
+drab_green striped_yellow
+drab_green clear_blue
+drab_green shiny_brown
+dim_gray light_tomato
+dim_gray dim_plum
+dim_gray wavy_maroon
+dark_white light_brown
+dim_turquoise dull_fuchsia
+dim_turquoise dull_black
+drab_lavender pale_maroon
+striped_crimson light_coral
+vibrant_olive vibrant_gold
+dim_maroon drab_red
+dim_maroon mirrored_fuchsia
+dim_maroon dim_coral
+dim_maroon pale_salmon
+muted_lime drab_cyan
+muted_lime muted_beige
+drab_purple dotted_gold
+muted_beige vibrant_violet
+muted_beige light_lavender
+muted_beige wavy_maroon
+dotted_green wavy_blue
+bright_black wavy_chartreuse
+bright_black clear_purple
+wavy_yellow posh_lavender
+wavy_yellow faded_yellow
+faded_yellow posh_black
+faded_yellow bright_chartreuse
+faded_yellow bright_fuchsia
+dim_purple mirrored_fuchsia
+dim_purple posh_tomato
+dim_purple faded_lavender
+dim_purple bright_aqua
+vibrant_maroon bright_purple
+vibrant_maroon clear_gold
+pale_fuchsia dark_magenta
+dotted_teal shiny_chartreuse
+dull_lime dotted_violet
+dull_lime vibrant_cyan
+bright_salmon bright_gray
+bright_salmon wavy_beige
+bright_salmon faded_green
+bright_salmon vibrant_coral
+bright_magenta striped_fuchsia
+bright_magenta vibrant_crimson
+bright_magenta mirrored_maroon
+striped_red vibrant_indigo
+striped_red plaid_black
+striped_red dark_coral
+pale_teal clear_blue
+pale_teal shiny_purple
+pale_teal light_turquoise
+pale_teal bright_aqua
+clear_cyan muted_olive
+clear_cyan bright_maroon
+clear_cyan dark_green
+clear_cyan shiny_purple
+muted_gray plaid_red
+muted_gray dark_teal
+muted_gray vibrant_coral
+bright_gold faded_indigo
+bright_gold mirrored_orange
+bright_gold muted_beige
+bright_gold pale_green
+clear_red dark_violet
+clear_red plaid_tomato
+striped_purple posh_lavender
+plaid_violet mirrored_gold
+shiny_crimson dark_crimson
+shiny_crimson bright_black
+shiny_crimson wavy_purple
+posh_gold dull_yellow
+dim_crimson drab_white
+posh_red striped_red
+posh_red dull_green
+drab_turquoise dark_yellow
+drab_turquoise clear_beige
+drab_turquoise shiny_green
+drab_turquoise dull_orange
+light_bronze plaid_magenta
+light_bronze vibrant_blue
+light_bronze dim_orange
+light_bronze pale_salmon
+dotted_cyan drab_crimson
+dotted_cyan faded_purple
+drab_fuchsia plaid_salmon
+clear_maroon dotted_white
+clear_maroon dark_olive
+clear_maroon dull_red
+dim_salmon drab_lime
+dim_salmon light_green
+dim_salmon drab_black
+wavy_aqua plaid_crimson
+wavy_aqua dull_tan
+pale_beige light_teal
+pale_beige striped_beige
+pale_beige faded_lavender
+dark_maroon bright_maroon
+dark_maroon bright_tomato
+dark_maroon striped_chartreuse
+light_aqua faded_yellow
+dim_tan dull_green
+dim_tan light_orange
+dim_tan dark_white
+vibrant_brown plaid_tomato
+light_magenta faded_crimson
+light_magenta bright_red
+light_magenta dotted_violet
+light_magenta mirrored_turquoise
+clear_turquoise striped_tan
+clear_turquoise plaid_black
+clear_turquoise mirrored_tan
+dull_crimson dotted_beige
+dull_crimson faded_tomato
+dull_crimson dim_coral
+dull_crimson shiny_coral
+dull_orange muted_tomato
+dull_orange faded_salmon
+dull_orange bright_chartreuse
+dull_orange dull_lime
+wavy_black clear_red
+wavy_black dark_cyan
+plaid_olive dull_purple
+plaid_olive mirrored_fuchsia
+plaid_olive bright_fuchsia
+plaid_indigo striped_turquoise
+plaid_indigo mirrored_olive
+plaid_indigo mirrored_tan
+plaid_indigo dotted_violet
+dim_brown faded_teal
+muted_indigo pale_gray
+muted_indigo mirrored_plum
+muted_indigo faded_salmon
+dull_plum dark_violet
+dull_plum striped_fuchsia
+dull_plum mirrored_cyan
+dull_plum light_coral
+vibrant_tan clear_white
+vibrant_tan dim_silver
+plaid_tomato dark_green
+shiny_white drab_tan
+shiny_white dotted_bronze
+shiny_white faded_gold
+plaid_red pale_olive
+plaid_red muted_purple
+plaid_red mirrored_chartreuse
+drab_orange bright_indigo
+drab_orange pale_salmon
+striped_green pale_maroon
+striped_green bright_tomato
+striped_green muted_brown
+shiny_indigo clear_teal
+shiny_indigo vibrant_purple
+shiny_indigo plaid_brown
+shiny_indigo pale_teal
+drab_yellow faded_black
+drab_yellow mirrored_plum
+drab_yellow plaid_green
+faded_magenta vibrant_indigo
+faded_magenta shiny_gold
+faded_magenta mirrored_lavender
+muted_yellow striped_white
+muted_yellow shiny_lime
+muted_yellow dark_silver
+muted_yellow light_turquoise
+posh_brown dull_cyan
+pale_tomato mirrored_fuchsia
+dark_aqua dull_blue
+dark_aqua mirrored_white
+muted_blue mirrored_fuchsia
+muted_coral vibrant_brown
+muted_coral pale_plum
+muted_coral wavy_crimson
+muted_coral posh_magenta
+muted_green striped_yellow
+muted_green bright_salmon
+muted_green shiny_gray
+muted_green pale_crimson
+muted_brown dark_lavender
+muted_brown dim_chartreuse
+dim_violet light_yellow
+dim_violet faded_tan
+dim_violet dull_violet
+clear_fuchsia drab_plum
+muted_violet clear_tomato
+muted_violet dark_red
+muted_violet muted_salmon
+posh_violet dull_chartreuse
+posh_violet light_coral
+posh_violet mirrored_cyan
+dark_violet striped_gold
+dark_violet bright_red
+dark_violet vibrant_bronze
+dotted_fuchsia striped_crimson
+dotted_fuchsia vibrant_tan
+dotted_fuchsia wavy_silver
+vibrant_indigo bright_red
+vibrant_indigo bright_fuchsia
+vibrant_indigo muted_gold
+vibrant_indigo bright_aqua
+vibrant_gray clear_teal
+vibrant_gray vibrant_yellow
+dotted_plum dull_crimson
+dotted_plum posh_green
+dotted_plum light_gray
+dotted_plum pale_tomato
+vibrant_magenta dotted_beige
+drab_maroon drab_coral
+drab_maroon dotted_tan
+drab_maroon dull_cyan
+dotted_gold dark_olive
+dotted_gold wavy_yellow
+striped_cyan striped_red
+striped_cyan striped_crimson
+striped_cyan shiny_gold
+pale_silver vibrant_red
+pale_silver clear_red
+drab_coral striped_gold
+drab_coral striped_turquoise
+drab_coral striped_silver
+drab_coral mirrored_turquoise
+vibrant_chartreuse striped_gray
+vibrant_chartreuse shiny_silver
+vibrant_chartreuse bright_turquoise
+pale_maroon bright_tan
+pale_maroon clear_gray
+pale_maroon vibrant_bronze
+pale_maroon light_turquoise
+wavy_blue wavy_yellow
+mirrored_green dark_red
+mirrored_green striped_white
+mirrored_green wavy_red
+mirrored_green faded_beige
+shiny_purple dark_maroon
+shiny_purple clear_blue
+shiny_purple striped_chartreuse
+dim_white striped_gold
+dim_white striped_beige
+dim_white muted_white
+dim_white muted_blue
+posh_maroon dotted_red
+posh_maroon dotted_crimson
+posh_chartreuse shiny_turquoise
+posh_chartreuse light_maroon
+posh_chartreuse posh_gray
+posh_chartreuse mirrored_blue
+dim_orange faded_beige
+clear_gray bright_maroon
+clear_gray bright_red
+clear_gray dull_cyan
+clear_gray muted_gold
+dull_purple faded_beige
+dull_purple muted_gold
+muted_olive clear_blue
+muted_olive posh_brown
+muted_olive posh_lavender
+muted_olive striped_chartreuse
+pale_lavender dark_aqua
+pale_lavender dull_gray
+pale_lavender posh_silver
+shiny_blue bright_tan
+shiny_blue faded_yellow
+plaid_salmon shiny_teal
+mirrored_silver plaid_tomato
+mirrored_silver dotted_salmon
+light_blue mirrored_fuchsia
+light_blue drab_maroon
+light_blue pale_tan
+light_blue posh_silver
+light_orange dim_gold
+light_orange dark_gold
+faded_tomato wavy_beige
+shiny_fuchsia muted_orange
+shiny_fuchsia plaid_turquoise
+shiny_fuchsia shiny_plum
+light_indigo dim_purple
+light_indigo faded_magenta
+light_indigo dim_black
+faded_aqua drab_plum
+faded_aqua dotted_silver
+faded_aqua drab_beige
+faded_aqua bright_aqua
+posh_blue wavy_magenta
+posh_blue posh_magenta
+dotted_crimson dark_yellow
+dotted_crimson striped_gold
+striped_salmon dark_tomato
+striped_salmon plaid_silver
+striped_salmon shiny_coral
+clear_brown muted_olive
+clear_brown plaid_gold
+clear_orange posh_plum
+clear_orange posh_lavender
+clear_orange dull_cyan
+shiny_teal striped_chartreuse
+shiny_teal muted_gold
+dim_bronze dull_lavender
+shiny_silver dull_plum
+shiny_silver vibrant_indigo
+shiny_silver striped_bronze
+shiny_silver posh_tomato
+dim_tomato wavy_indigo
+dim_tomato dim_beige
+dim_tomato wavy_gold
+vibrant_white dim_magenta
+vibrant_white posh_silver
+vibrant_white dull_maroon
+dark_blue bright_red
+dark_blue striped_green
+dark_blue dotted_violet
+plaid_gray faded_gray
+plaid_gray dark_brown
+mirrored_indigo dim_crimson
+mirrored_cyan striped_tan
+mirrored_cyan faded_teal
+mirrored_cyan striped_bronze
+mirrored_cyan bright_fuchsia
+dotted_red muted_olive
+dotted_red faded_maroon
+dotted_red posh_lavender
+dotted_red bright_tomato
+clear_crimson muted_aqua
+clear_crimson dark_lavender
+mirrored_brown dark_red
+mirrored_brown faded_brown
+mirrored_brown striped_lavender
+mirrored_brown drab_beige
+pale_gray vibrant_brown
+pale_gray striped_tan
+pale_gray dark_chartreuse
+pale_gray vibrant_gold
+bright_gray dull_purple
+bright_gray dull_chartreuse
+bright_gray dotted_violet
+dotted_purple shiny_indigo
+dotted_purple mirrored_white
+dotted_purple shiny_silver
+dotted_indigo light_tomato
+dotted_indigo bright_gray
+dotted_indigo dull_chartreuse
+dotted_indigo dim_violet
+wavy_orange clear_salmon
+wavy_orange muted_maroon
+wavy_orange dark_orange
+dark_plum muted_tomato
+dark_plum shiny_gold
+dark_plum striped_chartreuse
+vibrant_yellow dark_red
+vibrant_yellow shiny_gold
+vibrant_yellow faded_yellow
+vibrant_yellow light_silver
+vibrant_bronze clear_blue
+striped_silver faded_cyan
+striped_silver posh_fuchsia
+dull_yellow dull_lavender
+dull_yellow posh_maroon
+dull_yellow shiny_silver
+dull_yellow mirrored_lavender
+wavy_turquoise muted_gold
+drab_salmon dull_beige
+drab_salmon dotted_yellow
+drab_salmon posh_aqua
+posh_green faded_gray
+posh_green dim_maroon
+posh_green mirrored_lavender
+posh_green wavy_lavender
+mirrored_aqua posh_olive
+mirrored_aqua shiny_bronze
+mirrored_aqua drab_blue
+wavy_tan faded_brown
+wavy_tan wavy_green
+mirrored_magenta clear_violet
+mirrored_magenta plaid_black
+mirrored_lime pale_maroon
+mirrored_lime striped_teal
+mirrored_lime clear_cyan
+dark_crimson clear_violet
+dark_crimson vibrant_indigo
+dark_crimson vibrant_black
+striped_blue bright_tan
+striped_blue striped_chartreuse
+striped_blue dull_lime
+striped_blue vibrant_cyan
+wavy_chartreuse drab_red
+wavy_chartreuse dotted_silver
+wavy_chartreuse posh_olive
+clear_magenta plaid_plum
+clear_magenta clear_orange
+dim_beige vibrant_maroon
+dim_beige faded_lavender
+dim_beige shiny_silver
+striped_tan dark_maroon
+striped_tan mirrored_olive
+faded_green posh_white
+faded_green dotted_crimson
+drab_teal bright_fuchsia
+posh_lavender bright_red
+posh_lavender bright_chartreuse
+posh_lavender shiny_lime
+bright_tan dark_red
+bright_tan bright_maroon
+bright_tan clear_blue
+light_red mirrored_plum
+light_red vibrant_black
+light_red vibrant_gray
+light_white drab_beige
+faded_gray dim_plum
+faded_gray bright_aqua
+light_gray dark_plum
+light_gray vibrant_silver
+light_gray faded_gold
+light_teal dark_lavender
+muted_teal mirrored_green
+muted_teal striped_chartreuse
+muted_teal muted_gold
+muted_teal dull_orange
+dull_chartreuse posh_black
+dull_chartreuse bright_tan
+dull_chartreuse wavy_maroon
+dull_chartreuse shiny_purple
+vibrant_salmon faded_magenta
+vibrant_salmon faded_beige
+mirrored_gold dark_orange
+dark_yellow shiny_gold
+dark_yellow drab_beige
+dark_yellow dull_lime
+dark_yellow plaid_brown
+plaid_crimson vibrant_indigo
+plaid_crimson pale_chartreuse
+shiny_gold muted_olive
+shiny_gold dotted_red
+shiny_gold drab_plum
+pale_olive dark_maroon
+pale_olive clear_red
+dotted_magenta dark_purple
+striped_violet faded_crimson
+striped_violet mirrored_fuchsia
+striped_violet plaid_salmon
+striped_violet mirrored_cyan
+faded_lime vibrant_brown
+faded_lime dim_purple
+muted_magenta wavy_tomato
+muted_magenta muted_turquoise
+muted_magenta plaid_black
+muted_magenta mirrored_olive
+dim_lime light_olive
+dim_lime wavy_beige
+plaid_cyan muted_yellow
+dotted_maroon light_purple
+dotted_maroon vibrant_green
+striped_gray plaid_tomato
+light_violet striped_tomato
+light_violet mirrored_beige
+light_violet clear_magenta
+light_violet muted_red
+vibrant_gold striped_fuchsia
+vibrant_gold striped_blue
+vibrant_gold dull_orange
+vibrant_lavender bright_red
+vibrant_lavender dull_chartreuse
+clear_yellow clear_orange
+muted_black plaid_chartreuse
+muted_black light_magenta
+muted_black wavy_beige
+pale_brown wavy_red
+pale_brown vibrant_red
+plaid_purple muted_white
+plaid_purple dotted_violet
+vibrant_fuchsia mirrored_silver
+light_purple light_green
+light_purple striped_chartreuse
+light_purple shiny_blue
+light_purple wavy_lime
+mirrored_white bright_brown
+mirrored_white striped_silver
+dull_silver shiny_gray
+dark_magenta plaid_brown
+dark_magenta light_turquoise
+faded_red striped_tan
+mirrored_beige mirrored_orange
+mirrored_beige posh_lavender
+mirrored_beige clear_yellow
+faded_coral striped_blue
+faded_coral muted_purple
+faded_coral shiny_purple
+shiny_cyan dim_orange
+shiny_cyan mirrored_chartreuse
+shiny_cyan dark_teal
+shiny_cyan clear_purple
+posh_gray faded_maroon
+posh_gray bright_red
+dim_cyan light_white
+dotted_tomato plaid_lime
+dotted_tomato wavy_blue
+dotted_tomato shiny_plum
+dark_teal shiny_turquoise
+dark_teal faded_green
+muted_cyan dim_tomato
+muted_cyan bright_maroon
+muted_cyan light_bronze
+muted_cyan posh_coral
+dotted_yellow bright_maroon
+dotted_yellow plaid_magenta
+dotted_yellow faded_aqua
+dotted_yellow dim_lime
+dark_cyan faded_beige
+dark_bronze pale_white
+dark_bronze muted_yellow
+dark_bronze shiny_chartreuse
+dark_bronze vibrant_cyan
+drab_cyan wavy_red
+drab_cyan clear_blue
+drab_cyan bright_tan
+drab_white shiny_yellow
+bright_cyan dark_yellow
+bright_cyan striped_white
+bright_cyan bright_brown
+bright_cyan clear_gold
+dull_lavender mirrored_brown
+dull_lavender pale_salmon
+shiny_olive plaid_beige
+posh_fuchsia posh_gray
+plaid_aqua faded_turquoise
+plaid_aqua shiny_beige
+plaid_aqua striped_silver
+plaid_aqua dark_cyan
+shiny_plum dull_tomato
+striped_chartreuse posh_black
+striped_chartreuse bright_chartreuse
+striped_chartreuse vibrant_cyan
+pale_red posh_black
+pale_red bright_tomato
+pale_red vibrant_bronze
+plaid_maroon wavy_tomato
+plaid_maroon pale_blue
+plaid_maroon dotted_coral
+shiny_beige faded_aqua
+plaid_silver light_gold
+plaid_silver wavy_green
+plaid_silver posh_cyan
+light_cyan wavy_magenta
+light_cyan shiny_tomato
+faded_silver striped_bronze
+faded_silver pale_coral
+faded_silver dim_salmon
+light_green vibrant_maroon
+light_green muted_indigo
+faded_maroon plaid_black
+faded_maroon clear_gray
+faded_maroon drab_beige
+faded_maroon dull_lime
+posh_tan plaid_turquoise
+posh_tan pale_turquoise
+posh_tan dim_chartreuse
+posh_tan dim_violet
+muted_silver dotted_crimson
+muted_silver muted_brown
+mirrored_turquoise bright_cyan
+mirrored_turquoise light_coral
+mirrored_turquoise dark_silver
+mirrored_turquoise light_turquoise
+clear_coral clear_gray
+clear_coral posh_plum
+clear_coral muted_indigo
+clear_coral pale_chartreuse
+clear_teal striped_white
+clear_teal light_turquoise
+muted_lavender clear_blue
+muted_lavender posh_brown
+muted_lavender striped_blue
+shiny_tan light_olive
+dark_salmon dark_crimson
+dark_salmon muted_aqua
+dark_salmon dull_teal
+plaid_orange dull_plum
+plaid_orange faded_maroon
+plaid_orange dim_maroon
+clear_black shiny_beige
+clear_black dull_magenta
+clear_black plaid_tomato
+striped_tomato drab_chartreuse
+striped_tomato posh_lavender
+striped_tomato drab_bronze
+striped_tomato dark_teal
+light_maroon faded_magenta
+light_maroon mirrored_chartreuse
+dark_indigo striped_purple
+dark_indigo clear_tomato
+dark_indigo light_beige
+faded_violet striped_tan
+clear_violet light_salmon
+clear_violet plaid_tan
+dotted_violet light_silver
+dotted_brown drab_chartreuse
+dotted_brown dim_gold
+wavy_gray drab_tan
+faded_black bright_gray
+faded_black faded_aqua
+shiny_bronze plaid_lime
+shiny_bronze faded_maroon
+shiny_bronze mirrored_silver
+shiny_bronze muted_salmon
+faded_purple wavy_beige
+faded_purple shiny_silver
+dim_plum light_salmon
+dim_plum plaid_plum
+dim_plum posh_crimson
+plaid_turquoise bright_purple
+plaid_turquoise muted_tomato
+clear_tomato striped_bronze
+bright_green plaid_chartreuse
+bright_green dull_magenta
+bright_green dim_orange
+drab_tomato wavy_tomato
+drab_tomato posh_gold
+clear_indigo drab_plum
+clear_indigo posh_white
+bright_crimson faded_salmon
+dark_coral clear_indigo
+dark_coral faded_teal
+dark_coral dull_cyan
+light_salmon posh_brown
+light_salmon muted_salmon
+dark_purple striped_fuchsia
+dark_purple shiny_chartreuse
+dark_purple light_silver
+dark_purple clear_cyan
+dotted_beige muted_olive
+dotted_beige vibrant_cyan
+dotted_beige light_turquoise
+muted_crimson drab_plum
+wavy_gold drab_plum
+wavy_gold dotted_red
+wavy_gold faded_red
+wavy_gold bright_purple
+faded_crimson bright_maroon
+shiny_chartreuse posh_black
+shiny_chartreuse clear_blue
+dull_magenta dull_chartreuse
+dull_magenta vibrant_beige
+shiny_turquoise faded_teal
+drab_aqua muted_white
+drab_aqua bright_cyan
+drab_aqua wavy_beige
+dim_teal vibrant_silver
+light_yellow dotted_red
+light_yellow pale_turquoise
+light_yellow dull_lime
+light_yellow clear_gold
+striped_olive clear_teal
+striped_olive dim_violet
+dark_green striped_fuchsia
+dark_green posh_black
+light_black mirrored_beige
+light_black clear_beige
+light_black pale_blue
+dull_brown faded_beige
+dull_brown posh_tomato
+dull_brown bright_violet
+shiny_green wavy_tomato
+shiny_green faded_teal
+shiny_green striped_crimson
+shiny_green muted_maroon
+shiny_salmon light_gold
+shiny_salmon mirrored_green
+shiny_salmon clear_gray
+clear_aqua light_tomato
+clear_aqua pale_bronze
+clear_aqua striped_chartreuse
+wavy_beige dark_bronze
+wavy_beige plaid_yellow
+wavy_beige muted_salmon
+plaid_yellow vibrant_violet
+plaid_yellow dim_cyan
+plaid_yellow mirrored_cyan
+plaid_yellow vibrant_coral
+clear_beige bright_red
+clear_lime dark_lavender
+clear_lime vibrant_coral
+clear_lime pale_teal
+vibrant_beige drab_red
+vibrant_beige bright_tomato
+vibrant_beige mirrored_cyan
+bright_yellow posh_white
+bright_yellow pale_beige
+bright_yellow dim_lime
+plaid_plum light_salmon
+plaid_plum faded_yellow
+plaid_plum shiny_brown
+plaid_green mirrored_violet
+plaid_green light_lavender
+plaid_green plaid_plum
+plaid_green posh_plum
+dull_tan drab_white
+dull_tan dotted_crimson
+dull_tan vibrant_bronze
+clear_bronze dim_beige
+clear_bronze clear_gray
+vibrant_crimson shiny_plum
+vibrant_crimson vibrant_orange
+vibrant_orange striped_tan
+vibrant_orange shiny_indigo
+vibrant_orange bright_tomato
+vibrant_orange dotted_turquoise
+plaid_beige light_white
+dull_indigo faded_salmon
+dull_indigo vibrant_cyan
+muted_white striped_fuchsia
+shiny_aqua wavy_cyan
+shiny_aqua shiny_teal
+shiny_aqua dark_green
+shiny_aqua bright_aqua
+bright_fuchsia shiny_chartreuse
+bright_fuchsia vibrant_bronze
+dull_bronze posh_lavender
+dull_bronze pale_beige
+dull_bronze drab_fuchsia
+muted_maroon drab_plum
+muted_maroon shiny_orange
+muted_maroon posh_fuchsia
+striped_fuchsia posh_black
+striped_fuchsia posh_lavender
+striped_fuchsia dull_cyan
+striped_fuchsia vibrant_bronze
+shiny_tomato pale_violet
+wavy_lime bright_brown
+wavy_lime bright_red
+wavy_lime dark_olive
+wavy_tomato drab_tan
+wavy_tomato bright_maroon
+wavy_tomato mirrored_fuchsia
+striped_coral pale_plum
+striped_coral muted_maroon
+clear_silver striped_turquoise
+vibrant_tomato drab_lime
+vibrant_tomato dim_coral
+vibrant_tomato mirrored_tan
+faded_gold dull_black
+striped_bronze dark_red
+striped_bronze muted_olive
+striped_bronze light_lavender
+striped_bronze posh_gray
+dotted_chartreuse dim_red
+dotted_chartreuse dull_brown
+dotted_chartreuse drab_beige
+vibrant_coral shiny_turquoise
+vibrant_coral striped_orange
+faded_lavender shiny_lime
+dull_turquoise clear_turquoise
+dull_turquoise dark_olive
+dull_turquoise dark_coral
+dull_turquoise shiny_purple
+shiny_yellow dark_yellow
+shiny_yellow vibrant_silver
+shiny_yellow dim_gold
+plaid_lavender vibrant_violet
+plaid_lavender muted_crimson
+plaid_lavender light_tan
+plaid_lavender striped_silver
+mirrored_fuchsia clear_gray
+wavy_white dim_turquoise
+clear_purple shiny_chartreuse
+dark_chartreuse dark_maroon
+dark_chartreuse light_lavender
+dark_chartreuse dim_blue
+dark_chartreuse drab_black
+wavy_purple vibrant_brown
+wavy_purple dull_brown
+wavy_purple dim_gold
+wavy_purple faded_olive
+bright_lavender muted_white
+shiny_red dark_violet
+shiny_red muted_aqua
+shiny_red striped_teal
+pale_aqua dull_violet
+pale_aqua dark_teal
+wavy_brown posh_brown
+wavy_brown posh_crimson
+wavy_brown mirrored_lavender
+clear_chartreuse bright_tan
+mirrored_chartreuse posh_maroon
+mirrored_chartreuse plaid_black
+mirrored_chartreuse striped_silver
+mirrored_chartreuse dark_turquoise
+pale_turquoise dark_red
+pale_turquoise plaid_white
+pale_turquoise faded_tomato
+pale_turquoise dim_coral
+dotted_blue bright_lavender
+bright_plum dark_purple
+bright_plum plaid_salmon
+bright_plum dark_olive
+bright_plum muted_violet
+pale_black dark_plum
+dotted_coral faded_magenta
+dotted_coral muted_magenta
+dotted_coral clear_brown
+plaid_magenta dim_teal
+plaid_magenta light_green
+plaid_magenta faded_beige
+plaid_magenta vibrant_coral
+striped_lavender striped_bronze
+striped_lavender clear_gray
+striped_lavender drab_beige
+striped_lavender muted_teal
+striped_magenta dull_fuchsia
+striped_magenta posh_olive
+striped_magenta shiny_coral
+striped_magenta dull_tan
+pale_tan mirrored_teal
+pale_tan pale_olive
+light_crimson dull_purple
+pale_coral dotted_red
+pale_coral plaid_salmon
+vibrant_blue faded_black
+vibrant_blue faded_lime
+vibrant_blue shiny_yellow
+vibrant_blue drab_silver
+dark_tan drab_tan
+dark_tan dark_green
+dark_tan shiny_brown
+dark_tan drab_blue
+drab_olive vibrant_yellow
+wavy_violet shiny_coral
+plaid_gold plaid_beige
+plaid_gold pale_salmon
+plaid_bronze bright_blue
+plaid_bronze wavy_green
+plaid_bronze clear_magenta
+wavy_cyan clear_indigo
+wavy_cyan clear_red
+vibrant_black mirrored_green
+faded_white light_green
+faded_white vibrant_teal
+faded_white wavy_black
+mirrored_orange muted_tomato
+dark_gold muted_turquoise
+dark_gold mirrored_olive
+dark_gold posh_olive
+dark_gold dim_maroon
+muted_turquoise plaid_tomato
+dull_blue faded_teal
+dull_blue dotted_silver
+dull_blue vibrant_beige
+dull_blue muted_salmon
+light_tomato dark_red
+light_tomato dark_maroon
+light_tomato pale_red
+striped_turquoise faded_violet
+striped_turquoise dull_cyan
+striped_turquoise bright_violet
+striped_turquoise posh_silver
+wavy_magenta striped_tan
+wavy_magenta bright_brown
+wavy_magenta muted_indigo
+posh_bronze striped_fuchsia
+posh_bronze striped_bronze
+posh_bronze dotted_salmon
+drab_silver plaid_white
+drab_silver plaid_lime
+dull_red light_green
+dull_red wavy_blue
+dull_red mirrored_plum
+dull_red mirrored_purple
+pale_gold light_salmon
+pale_gold drab_plum
+wavy_red light_lavender
+wavy_red drab_beige
+mirrored_gray drab_white
+mirrored_gray posh_brown
+drab_plum striped_tan
+drab_plum muted_olive
+drab_plum vibrant_bronze
+mirrored_teal plaid_salmon
+mirrored_teal plaid_brown
+dotted_tan vibrant_indigo
+dotted_tan dark_bronze
+dotted_tan drab_lavender
+dotted_tan muted_purple
+dark_gray drab_olive
+dark_gray dark_lavender
+dark_gray posh_lavender
+dark_gray vibrant_yellow
+pale_indigo mirrored_silver
+bright_white clear_magenta
+clear_white faded_olive
+faded_tan wavy_tomato
+faded_tan bright_cyan
+faded_tan striped_turquoise
+faded_tan drab_beige
+striped_lime light_orange
+striped_lime dim_lime
+dim_blue bright_maroon
+mirrored_tomato plaid_silver
+wavy_coral faded_white
+wavy_coral wavy_yellow
+dark_silver shiny_gold
+dark_silver posh_gray
+dark_silver vibrant_yellow
+dark_silver clear_cyan
+dim_fuchsia plaid_orange
+dim_fuchsia pale_chartreuse
+dim_fuchsia wavy_chartreuse
+light_lime striped_brown
+light_lime bright_green
+light_lime muted_red
+light_lime posh_crimson
+mirrored_red wavy_beige
+mirrored_red dim_turquoise
+light_chartreuse light_yellow
+light_chartreuse wavy_yellow
+dull_teal faded_maroon
+dull_teal dotted_gold
+dull_aqua dull_purple
+dull_aqua light_lavender
+pale_white pale_maroon
+wavy_salmon posh_brown
+wavy_salmon light_orange
+wavy_salmon light_brown
+wavy_salmon dotted_olive
+faded_chartreuse dark_beige
+faded_chartreuse bright_tan
+faded_chartreuse dotted_maroon
+faded_chartreuse mirrored_silver
+posh_beige dim_teal
+posh_crimson posh_gray
+posh_crimson dark_silver
+posh_crimson vibrant_yellow
+shiny_orange striped_tan
+shiny_orange wavy_red
+shiny_orange bright_chartreuse
+shiny_orange vibrant_cyan
+wavy_lavender plaid_crimson
+wavy_lavender faded_magenta
+wavy_lavender clear_blue
+wavy_lavender dim_gold
+vibrant_aqua muted_black
+vibrant_aqua dim_cyan
+vibrant_aqua pale_lavender
+dim_magenta dark_salmon
+dim_magenta dark_orange
+wavy_olive shiny_olive
+wavy_olive bright_silver
+dull_green drab_red
+dull_green muted_turquoise
+dull_green mirrored_olive
+dull_green plaid_brown
+dotted_gray vibrant_olive
+dotted_gray drab_fuchsia
+mirrored_salmon vibrant_indigo
+mirrored_salmon faded_indigo
+faded_orange striped_brown
+faded_orange muted_violet
+plaid_black dark_green
+plaid_black bright_fuchsia
+plaid_black shiny_lime
+dull_coral bright_tan
+dull_coral bright_gray
+dull_coral muted_salmon
+pale_chartreuse faded_crimson
+pale_chartreuse dotted_gold
+pale_chartreuse posh_crimson
+mirrored_black light_white
+mirrored_black muted_magenta
+mirrored_black bright_plum
+mirrored_black mirrored_turquoise
+drab_crimson dull_green
+drab_crimson wavy_blue
+drab_crimson light_tan
+muted_orange dull_fuchsia
+pale_orange vibrant_gray
+clear_salmon clear_aqua
+dull_tomato muted_lavender
+dull_tomato light_maroon
+dull_tomato faded_brown
+dull_tomato muted_red
+pale_crimson mirrored_chartreuse
+dotted_white posh_brown
+posh_teal dark_violet
+posh_teal dotted_salmon
+dim_coral striped_white
+bright_aqua bright_red
+bright_aqua bright_tan
+bright_aqua dotted_violet
+dark_beige dull_aqua
+dark_beige drab_blue
+bright_teal drab_white
+dotted_silver dull_orange
+striped_maroon light_black
+striped_maroon light_lavender
+striped_maroon drab_violet
+pale_magenta pale_gray
+shiny_maroon drab_lime
+shiny_maroon dull_chartreuse
+shiny_maroon vibrant_beige
+shiny_maroon vibrant_turquoise
+dark_black striped_red
+dark_black plaid_tan
+dark_black wavy_crimson
+dark_black dark_white
+posh_white vibrant_gold
+muted_aqua dark_orange
+muted_aqua dull_chartreuse
+muted_aqua vibrant_gray
+muted_aqua bright_plum
+pale_cyan muted_white
+pale_cyan dark_olive
+plaid_white plaid_black
+plaid_white plaid_salmon
+plaid_white light_white
+bright_beige faded_plum
+bright_beige posh_magenta
+bright_beige clear_yellow
+dotted_black muted_olive
+bright_purple dark_olive
+bright_purple faded_violet
+bright_purple mirrored_cyan
+faded_plum mirrored_olive
+faded_plum light_silver
+dull_gold light_yellow
+dull_gold dotted_orange
+dull_gold pale_gold
+dark_tomato bright_red
+dark_tomato shiny_gold
+dark_tomato muted_gold
+pale_yellow drab_plum
+pale_yellow posh_bronze
+pale_yellow faded_purple
+pale_yellow clear_teal
+vibrant_turquoise faded_aqua
+vibrant_turquoise muted_silver
+vibrant_turquoise plaid_cyan
+vibrant_turquoise dim_violet
+mirrored_coral dark_salmon
+mirrored_coral posh_aqua
+mirrored_coral bright_violet
+muted_salmon vibrant_indigo
+pale_plum mirrored_teal
+pale_plum drab_tan
+pale_plum plaid_crimson
+clear_gold muted_tomato
+clear_gold dull_cyan
+clear_gold plaid_brown
+muted_chartreuse posh_gray
+muted_chartreuse drab_purple
+light_coral drab_beige
+light_coral clear_purple
+faded_indigo dull_brown
+bright_turquoise drab_bronze
+clear_plum dark_red
+clear_plum posh_black
+clear_plum plaid_beige
+clear_plum dim_gold
+plaid_chartreuse mirrored_olive
+plaid_chartreuse wavy_yellow
+faded_bronze light_salmon
+bright_lime faded_teal
+bright_lime faded_crimson
+bright_lime dotted_coral
+drab_violet dotted_beige
+drab_violet faded_beige
+drab_violet clear_orange
+drab_violet mirrored_chartreuse
+dull_olive dark_yellow
+dull_olive muted_lime
+wavy_indigo vibrant_green
+wavy_indigo clear_tan
+posh_indigo drab_salmon
+plaid_brown striped_tan
+plaid_brown dark_maroon
+plaid_brown dim_chartreuse
+plaid_brown dull_lime
+mirrored_purple clear_green
+mirrored_purple drab_green
+striped_plum dim_white
+striped_plum dark_teal
+dim_lavender striped_bronze
+dim_lavender wavy_maroon
+dim_chartreuse mirrored_olive
+dim_chartreuse shiny_gold
