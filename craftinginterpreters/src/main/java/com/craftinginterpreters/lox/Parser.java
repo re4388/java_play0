@@ -9,15 +9,15 @@ import static com.craftinginterpreters.lox.TokenType.*;
  *
  * Expression Grammar:
  *
- * expression     → equality ;
- * equality       → comparison ( ( "!=" | "==" ) comparison )* ;
- * comparison     → term ( ( ">" | ">=" | "<" | "<=" ) term )* ;
- * term           → factor ( ( "-" | "+" ) factor )* ;
- * factor         → unary ( ( "/" | "*" ) unary )* ;
- * unary          → ( "!" | "-" ) unary
- *                | primary ;
- * primary        → NUMBER | STRING | "true" | "false" | "nil"
- *                | "(" expression ")" ;
+ * expression → equality ;
+ * equality   → comparison ( ( "!=" | "==" ) comparison )* ;
+ * comparison → term ( ( ">" | ">=" | "<" | "<=" ) term )* ;
+ * term       → factor ( ( "-" | "+" ) factor )* ;
+ * factor     → unary ( ( "/" | "*" ) unary )* ;
+ * unary      → ( "!" | "-" ) unary
+ *            | primary ;
+ * primary    → NUMBER | STRING | "true" | "false" | "nil"
+ *            | "(" expression ")" ;
  *
  * see https://craftinginterpreters.com/parsing-expressions.html
  */
