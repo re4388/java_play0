@@ -8,24 +8,32 @@ import static com.craftinginterpreters.lox.TokenType.*;
 /**
  * Stmt Grammar:
  *
- * program    → statement* EOF ;
- * statement  → exprStmt
- *            | printStmt ;
- * exprStmt   → expression ";" ;
- * printStmt  → "print" expression ";" ;
+ * program        → declaration* EOF ;
+ * declaration    → varDecl
+ *                | statement ;
+ * varDecl        → "var" IDENTIFIER ( "=" expression )? ";" ;
+ * statement      → exprStmt
+ *                | printStmt ;
+ * exprStmt       → expression ";" ;
+ * printStmt      → "print" expression ";" ;
+ *
+ *
  *
  * Expression Grammar:
  *
- * expression → equality ;
- * equality   → comparison ( ( "!=" | "==" ) comparison )* ;
- * comparison → term ( ( ">" | ">=" | "<" | "<=" ) term )* ;
- * term       → factor ( ( "-" | "+" ) factor )* ;
- * factor     → unary ( ( "/" | "*" ) unary )* ;
- * unary      → ( "!" | "-" ) unary
- *            | primary ;
- * primary    → NUMBER | STRING | "true" | "false" | "nil"
- *            | "(" expression ")" ;
  *
+ * expression     → assignment ;
+ * assignment     → IDENTIFIER "=" assignment
+ *                | equality ;
+ * equality       → comparison ( ( "!=" | "==" ) comparison )* ;
+ * comparison     → term ( ( ">" | ">=" | "<" | "<=" ) term )* ;
+ * term           → factor ( ( "-" | "+" ) factor )* ;
+ * factor         → unary ( ( "/" | "*" ) unary )* ;
+ * unary          → ( "!" | "-" ) unary
+ *                | primary ;
+ * primary        → NUMBER | STRING | "true" | "false" | "nil"
+ *                | "(" expression ")" ;
+ *                | IDENTIFIER ;
  *
  *
  *
@@ -45,7 +53,7 @@ class Parser {
     List<Stmt> parse() {
         List<Stmt> statements = new ArrayList<>();
         while (!isAtEnd()) {
-            statements.add(statement());
+            statements.add(declaration());
         }
 
         return statements;
@@ -53,6 +61,29 @@ class Parser {
 
     private Expr expression() {
         return equality();
+    }
+
+    private Stmt declaration() {
+        try {
+            if (match(VAR)) return varDeclaration();
+
+            return statement();
+        } catch (ParseError error) {
+            synchronize();
+            return null;
+        }
+    }
+
+    private Stmt varDeclaration() {
+        Token name = consume(IDENTIFIER, "Expect variable name.");
+
+        Expr initializer = null;
+        if (match(EQUAL)) {
+            initializer = expression();
+        }
+
+        consume(SEMICOLON, "Expect ';' after variable declaration.");
+        return new Stmt.Var(name, initializer);
     }
 
     private Stmt statement() {
@@ -152,6 +183,10 @@ class Parser {
 
         if (match(NUMBER, STRING)) {
             return new Expr.Literal(previous().literal);
+        }
+
+        if (match(IDENTIFIER)) {
+            return new Expr.Variable(previous());
         }
 
         if (match(LEFT_PAREN)) {
