@@ -4,11 +4,12 @@ package com.ben.exceldemo2.service;
 import com.ben.exceldemo2.model.ExcelRequest;
 import com.ben.exceldemo2.model.ExcelSetting;
 import org.apache.poi.ss.usermodel.*;
-        import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.xssf.streaming.SXSSFSheet;
+import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import org.springframework.stereotype.Service;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -22,80 +23,97 @@ public class ExcelService {
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     private static final DateTimeFormatter DATETIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
+    /**
+     * 產生 Excel 並直接寫入傳入的 OutputStream。
+     * 使用 SXSSFWorkbook（POI Streaming API）：記憶體中只保留固定筆數的 row，
+     * 超出的 row 會自動 flush 到磁碟暫存檔，大幅降低大資料量時的記憶體消耗。
+     *
+     * @param request      Excel 設定與資料
+     * @param outputStream 目標輸出串流（由 Spring StreamingResponseBody 提供）
+     */
+    public void generateExcel(ExcelRequest request, OutputStream outputStream) throws IOException {
+        // rowAccessWindowSize = 100：記憶體中最多保留 100 筆 row，超出自動寫入磁碟暫存
+        SXSSFWorkbook workbook = new SXSSFWorkbook(100);
+        // 壓縮磁碟暫存的 XML，進一步節省磁碟空間（適合大資料量）
+        workbook.setCompressTempFiles(true);
 
-    public ByteArrayOutputStream generateExcel(ExcelRequest request) throws IOException {
-        Workbook workbook = new XSSFWorkbook();
-        ExcelSetting setting = request.getSetting();
+        try {
+            ExcelSetting setting = request.getSetting();
 
-        // 建立 sheet
-        Sheet sheet = workbook.createSheet(
-                setting.getSheetName() != null ? setting.getSheetName() : "Sheet1"
-        );
+            // 建立 sheet（SXSSFSheet 才有 trackAllColumnsForAutoSizing）
+            SXSSFSheet sheet = workbook.createSheet(
+                    setting.getSheetName() != null ? setting.getSheetName() : "Sheet1"
+            );
 
-        // 建立各種樣式
-        CellStyle headerStyle = createHeaderStyle(workbook);
-        CellStyle textStyle = createTextStyle(workbook);
-        CellStyle numberStyle = createNumberStyle(workbook);
-        CellStyle currencyStyle = createCurrencyStyle(workbook);
-        CellStyle percentStyle = createPercentStyle(workbook);
-        CellStyle dateStyle = createDateStyle(workbook);
-        CellStyle datetimeStyle = createDateTimeStyle(workbook);
-
-        // 寫入表頭
-        Row headerRow = sheet.createRow(0);
-        if (setting.getHeaderRowHeight() != null) {
-            headerRow.setHeightInPoints(setting.getHeaderRowHeight());
-        }
-
-        List<String> headers = setting.getHeaders();
-        for (int i = 0; i < headers.size(); i++) {
-            Cell cell = headerRow.createCell(i);
-            cell.setCellValue(headers.get(i));
-            cell.setCellStyle(headerStyle);
-        }
-
-        // 寫入資料
-        List<Map<String, Object>> dataList = request.getData();
-        List<String> columnKeys = setting.getColumnKeys();
-        Map<String, String> columnTypes = setting.getColumnTypes();
-
-        for (int rowIndex = 0; rowIndex < dataList.size(); rowIndex++) {
-            Row row = sheet.createRow(rowIndex + 1);
-            if (setting.getDataRowHeight() != null) {
-                row.setHeightInPoints(setting.getDataRowHeight());
+            // ⚠️ 若需要 autoSizeColumn，必須在寫入任何資料「之前」先呼叫 trackAllColumnsForAutoSizing，
+            //    這樣 SXSSF 才會在 sliding window 中保留欄寬計算所需的資訊。
+            if (Boolean.TRUE.equals(setting.getAutoSizeColumns())) {
+                sheet.trackAllColumnsForAutoSizing();
             }
 
-            Map<String, Object> rowData = dataList.get(rowIndex);
+            // 建立各種樣式（必須在寫入 row 前完成，SXSSFWorkbook 不支援回頭讀取已 flush 的 row）
+            CellStyle headerStyle = createHeaderStyle(workbook);
+            CellStyle textStyle = createTextStyle(workbook);
+            CellStyle numberStyle = createNumberStyle(workbook);
+            CellStyle currencyStyle = createCurrencyStyle(workbook);
+            CellStyle percentStyle = createPercentStyle(workbook);
+            CellStyle dateStyle = createDateStyle(workbook);
+            CellStyle datetimeStyle = createDateTimeStyle(workbook);
 
-            for (int colIndex = 0; colIndex < columnKeys.size(); colIndex++) {
-                Cell cell = row.createCell(colIndex);
-                String columnKey = columnKeys.get(colIndex);
-                Object value = rowData.get(columnKey);
-
-                // 根據指定的型別或自動判斷來設定值和樣式
-                String specifiedType = columnTypes != null ? columnTypes.get(columnKey) : null;
-                setCellValueWithType(cell, value, specifiedType,
-                        textStyle, numberStyle, currencyStyle, percentStyle,
-                        dateStyle, datetimeStyle);
+            // 寫入表頭
+            Row headerRow = sheet.createRow(0);
+            if (setting.getHeaderRowHeight() != null) {
+                headerRow.setHeightInPoints(setting.getHeaderRowHeight());
             }
-        }
 
-
-        // 自動調整欄寬
-        if (Boolean.TRUE.equals(setting.getAutoSizeColumns())) {
+            List<String> headers = setting.getHeaders();
             for (int i = 0; i < headers.size(); i++) {
-                sheet.autoSizeColumn(i);
-                // 加一點 padding
-                sheet.setColumnWidth(i, sheet.getColumnWidth(i) + 512);
+                Cell cell = headerRow.createCell(i);
+                cell.setCellValue(headers.get(i));
+                cell.setCellStyle(headerStyle);
             }
+
+            // 寫入資料
+            List<Map<String, Object>> dataList = request.getData();
+            List<String> columnKeys = setting.getColumnKeys();
+            Map<String, String> columnTypes = setting.getColumnTypes();
+
+            for (int rowIndex = 0; rowIndex < dataList.size(); rowIndex++) {
+                Row row = sheet.createRow(rowIndex + 1);
+                if (setting.getDataRowHeight() != null) {
+                    row.setHeightInPoints(setting.getDataRowHeight());
+                }
+
+                Map<String, Object> rowData = dataList.get(rowIndex);
+
+                for (int colIndex = 0; colIndex < columnKeys.size(); colIndex++) {
+                    Cell cell = row.createCell(colIndex);
+                    String columnKey = columnKeys.get(colIndex);
+                    Object value = rowData.get(columnKey);
+
+                    String specifiedType = columnTypes != null ? columnTypes.get(columnKey) : null;
+                    setCellValueWithType(cell, value, specifiedType,
+                            textStyle, numberStyle, currencyStyle, percentStyle,
+                            dateStyle, datetimeStyle);
+                }
+            }
+
+            // 自動調整欄寬（只有在 trackAllColumnsForAutoSizing 之後才有效）
+            if (Boolean.TRUE.equals(setting.getAutoSizeColumns())) {
+                for (int i = 0; i < headers.size(); i++) {
+                    sheet.autoSizeColumn(i);
+                    sheet.setColumnWidth(i, sheet.getColumnWidth(i) + 512);
+                }
+            }
+
+            // 直接寫入 HTTP response OutputStream
+            workbook.write(outputStream);
+
+        } finally {
+            // ⚠️ 必須呼叫 dispose() 清除磁碟暫存檔，否則會造成磁碟空間洩漏
+            workbook.dispose();
+            workbook.close();
         }
-
-        // 輸出到 ByteArray
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        workbook.write(outputStream);
-        workbook.close();
-
-        return outputStream;
     }
 
     /**
@@ -116,7 +134,7 @@ public class ExcelService {
             return;
         }
 
-        // 如果有指定型別,優先使用指定型別
+        // 如果有指定型別，優先使用指定型別
         if (specifiedType != null) {
             setValueBySpecifiedType(cell, value, specifiedType,
                     textStyle, numberStyle, currencyStyle, percentStyle, dateStyle, datetimeStyle);
@@ -142,7 +160,6 @@ public class ExcelService {
             cell.setCellValue(dateStr);
             cell.setCellStyle(datetimeStyle);
         } else {
-            // 嘗試解析字串中的特殊格式
             String strValue = value.toString();
             if (tryParseAsNumber(cell, strValue, numberStyle)) {
                 return;
@@ -150,7 +167,6 @@ public class ExcelService {
             if (tryParseAsDate(cell, strValue, dateStyle, datetimeStyle)) {
                 return;
             }
-            // 預設為文字
             cell.setCellValue(strValue);
             cell.setCellStyle(textStyle);
         }
@@ -182,7 +198,7 @@ public class ExcelService {
                 break;
             case "percent":
             case "percentage":
-                cell.setCellValue(parseAsNumber(value) / 100);  // Excel 百分比格式
+                cell.setCellValue(parseAsNumber(value) / 100);
                 cell.setCellStyle(percentStyle);
                 break;
             case "date":
@@ -206,9 +222,6 @@ public class ExcelService {
         }
     }
 
-    /**
-     * 嘗試解析為數字
-     */
     private boolean tryParseAsNumber(Cell cell, String value, CellStyle numberStyle) {
         try {
             double num = Double.parseDouble(value.replace(",", ""));
@@ -220,24 +233,19 @@ public class ExcelService {
         }
     }
 
-    /**
-     * 嘗試解析為日期
-     */
     private boolean tryParseAsDate(Cell cell, String value, CellStyle dateStyle, CellStyle datetimeStyle) {
         try {
             if (value.contains(":")) {
-                // 包含時間
                 cell.setCellValue(value);
                 cell.setCellStyle(datetimeStyle);
                 return true;
             } else if (value.matches("\\d{4}-\\d{2}-\\d{2}")) {
-                // yyyy-MM-dd 格式
                 cell.setCellValue(value);
                 cell.setCellStyle(dateStyle);
                 return true;
             }
         } catch (Exception e) {
-            // 解析失敗
+            // 解析失敗，忽略
         }
         return false;
     }
