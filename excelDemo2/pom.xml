@@ -80,6 +80,22 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <!--
+                        classifier=exec：
+                        - 可執行的 fat jar → excelDemo2-0.0.1-SNAPSHOT-exec.jar  (包含所有依賴，java -jar 執行)
+                        - Library 用 plain jar → excelDemo2-0.0.1-SNAPSHOT.jar   (供其他服務 <dependency> 引入)
+
+                        消費方引入 library 的方式：
+                        <dependency>
+                            <groupId>com.ben</groupId>
+                            <artifactId>excelDemo2</artifactId>
+                            <version>0.0.1-SNAPSHOT</version>
+                            (不需要 classifier，直接取得 plain jar)
+                        </dependency>
+                    -->
+                    <classifier>exec</classifier>
+                </configuration>
             </plugin>
         </plugins>
     </build>
