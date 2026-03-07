@@ -7,6 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.http.HttpStatus;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
 
@@ -66,16 +67,28 @@ class ExcelExportE2ETest {
             }
             """;
 
+    private static final String INVALID_REQUEST_BODY = """
+            {
+              "data": [
+                {"name":"張三"}
+              ]
+            }
+            """;
+
     @BeforeEach
     void setUp() {
         httpClient = HttpClient.newHttpClient();
     }
 
     private HttpResponse<byte[]> callExportApi() throws Exception {
+        return callExportApi(REQUEST_BODY);
+    }
+
+    private HttpResponse<byte[]> callExportApi(String requestBody) throws Exception {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("http://localhost:" + port + "/api/excel/export"))
                 .header("Content-Type", "application/json")
-                .POST(HttpRequest.BodyPublishers.ofString(REQUEST_BODY))
+                .POST(HttpRequest.BodyPublishers.ofString(requestBody))
                 .build();
 
         return httpClient.send(request, HttpResponse.BodyHandlers.ofByteArray());
@@ -210,5 +223,13 @@ class ExcelExportE2ETest {
             assertThat(row3.getCell(0).getStringCellValue()).isEqualTo("王五");
             assertThat(row3.getCell(4).getStringCellValue()).isEqualTo("否");
         }
+    }
+
+    @Test
+    @DisplayName("10. 缺少 setting 時應回傳 400")
+    void shouldReturn400WhenSettingIsMissing() throws Exception {
+        HttpResponse<byte[]> response = callExportApi(INVALID_REQUEST_BODY);
+
+        assertThat(response.statusCode()).isEqualTo(HttpStatus.BAD_REQUEST.value());
     }
 }

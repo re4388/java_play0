@@ -2,6 +2,7 @@ package com.ben.exceldemo2.controller;
 
 import com.ben.exceldemo2.model.ExcelRequest;
 import com.ben.exceldemo2.service.ExcelService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ContentDisposition;
@@ -24,23 +25,25 @@ import java.time.format.DateTimeFormatter;
 @RequiredArgsConstructor
 public class ExcelController {
 
+    private static final MediaType XLSX_MEDIA_TYPE = MediaType.parseMediaType(
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+
     private final ExcelService excelService;
 
     @PostMapping("/export")
-    public ResponseEntity<StreamingResponseBody> exportExcel(@RequestBody ExcelRequest request) {
+    public ResponseEntity<StreamingResponseBody> exportExcel(@Valid @RequestBody ExcelRequest request) {
         String filename = generateFilename(request.getSetting().getSheetName());
+
+        log.info("Excel export requested, sheetName={}, rowCount={}",
+                request.getSetting().getSheetName(),
+                request.getData() != null ? request.getData().size() : 0);
 
         // StreamingResponseBody：Spring 會在獨立執行緒中執行 lambda，
         // 邊產生 Excel 邊把資料寫入 HTTP response outputStream，
         // 不需要先把整個檔案載入記憶體。
-        StreamingResponseBody body = outputStream -> {
-            try {
-                excelService.generateExcel(request, outputStream);
-            } catch (Exception e) {
-                log.error("Excel 產生失敗", e);
-                throw new RuntimeException("Excel 產生失敗", e);
-            }
-        };
+        // 這裡不包 try-catch 後再轉成 RuntimeException，因為 response header/status
+        // 很可能已經送出，重新拋出也無法再轉成正常 JSON error response。
+        StreamingResponseBody body = outputStream -> excelService.generateExcel(request, outputStream);
 
         // 使用 ContentDisposition builder 做 RFC 5987 UTF-8 編碼，
         // 確保含中文等非 ASCII 字元的檔名能正確傳遞。
@@ -52,8 +55,7 @@ public class ExcelController {
 
         return ResponseEntity.ok()
                 .header(HttpHeaders.CONTENT_DISPOSITION, contentDisposition)
-                .contentType(MediaType.parseMediaType(
-                        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"))
+                .contentType(XLSX_MEDIA_TYPE)
                 .body(body);
     }
 

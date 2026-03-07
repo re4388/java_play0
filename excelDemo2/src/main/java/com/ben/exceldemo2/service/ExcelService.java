@@ -41,9 +41,7 @@ public class ExcelService {
             ExcelSetting setting = request.getSetting();
 
             // 建立 sheet（SXSSFSheet 才有 trackAllColumnsForAutoSizing）
-            SXSSFSheet sheet = workbook.createSheet(
-                    setting.getSheetName() != null ? setting.getSheetName() : "Sheet1"
-            );
+            SXSSFSheet sheet = workbook.createSheet(setting.getSheetName());
 
             // ⚠️ 若需要 autoSizeColumn，必須在寫入任何資料「之前」先呼叫 trackAllColumnsForAutoSizing，
             //    這樣 SXSSF 才會在 sliding window 中保留欄寬計算所需的資訊。
