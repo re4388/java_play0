@@ -1,6 +1,6 @@
 package com.ben.sprintbootexceldemo.model;
 
-import com.ben.sprintbootexceldemo.annotation.ExcelColumn;
+import com.ben.excel.core.annotation.ExcelColumn;
 
 import java.time.LocalDateTime;
 

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ben</groupId>
-    <artifactId>excelDemo2</artifactId>
+    <artifactId>demoHelmChart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>excelDemo2</name>
     <description>excelDemo2</description>

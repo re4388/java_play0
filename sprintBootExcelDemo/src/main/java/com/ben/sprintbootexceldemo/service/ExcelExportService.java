@@ -1,7 +1,7 @@
 package com.ben.sprintbootexceldemo.service;
 
-import com.ben.sprintbootexceldemo.metadata.ExcelSheetMeta;
-import com.ben.sprintbootexceldemo.template.ExcelExportTemplate;
+import com.ben.excel.core.metadata.ExcelSheetMeta;
+import com.ben.excel.core.template.ExcelExportTemplate;
 import jakarta.servlet.http.HttpServletResponse;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.springframework.stereotype.Service;

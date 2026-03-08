@@ -1,12 +1,12 @@
 package com.ben.sprintbootexceldemo.controller;
 
-import com.ben.sprintbootexceldemo.excel.ExcelColumn;
-import com.ben.sprintbootexceldemo.metadata.ExcelSheetMeta;
+import com.ben.excel.core.metadata.ExcelSheetMeta;
 import com.ben.sprintbootexceldemo.model.User;
 import com.ben.sprintbootexceldemo.model.UserSummary;
 import com.ben.sprintbootexceldemo.service.ExcelExportService;
 import com.ben.sprintbootexceldemo.service.UserService;
 import jakarta.servlet.http.HttpServletResponse;
+import org.jspecify.annotations.NonNull;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,8 +32,25 @@ public class UserExportController {
     @GetMapping("/export")
     public void exportReport(HttpServletResponse response) throws IOException {
 
+        Result mockData = createMockData();
+
+        excelExportService.export(
+                "report.xlsx",
+                List.of(mockData.userSheet(), mockData.summarySheet()),
+                response
+        );
+    }
+
+    private @NonNull Result createMockData() {
         // Sheet 1：使用者清單
         List<User> users = userService.findAllUsers();
+        // Sheet 2：統計資料（只有一筆）
+        UserSummary summary =
+                new UserSummary(
+                        users.size(),
+                        users.size() - 2,
+                        LocalDateTime.now()
+                );
 
         ExcelSheetMeta<User> userSheet =
                 new ExcelSheetMeta<>(
@@ -43,14 +60,6 @@ public class UserExportController {
                         Set.of("id", "name", "email") // 動態欄位
                 );
 
-        // Sheet 2：統計資料（只有一筆）
-        UserSummary summary =
-                new UserSummary(
-                        users.size(),
-                        users.size() - 2,
-                        LocalDateTime.now()
-                );
-
         ExcelSheetMeta<UserSummary> summarySheet =
                 new ExcelSheetMeta<>(
                         "Summary",
@@ -58,11 +67,11 @@ public class UserExportController {
                         UserSummary.class,
                         null // 全欄位
                 );
-
-        excelExportService.export(
-                "report.xlsx",
-                List.of(userSheet, summarySheet),
-                response
-        );
+        return new Result(userSheet, summarySheet);
     }
+
+    private record Result(
+            ExcelSheetMeta<User> userSheet,
+            ExcelSheetMeta<UserSummary> summarySheet
+    ) {}
 }
