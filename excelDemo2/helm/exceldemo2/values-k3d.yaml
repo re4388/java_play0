@@ -1,0 +1,30 @@
+image:
+  repository: exceldemo2
+  tag: local
+  pullPolicy: IfNotPresent
+
+ingress:
+  enabled: true
+  className: nginx
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  hosts:
+    - host: exceldemo2.local
+      paths:
+        - path: /
+          pathType: Prefix
+
+virtualService:
+  enabled: true
+  gateway: istio-system/istio-ingressgateway
+  hosts:
+    - exceldemo2.local
+  http:
+    - match:
+        prefix: /
+      timeout: 30s
+
+k3d:
+  clusterName: k3d-default
+  namespace: exceldemo2
+  releaseName: exceldemo2

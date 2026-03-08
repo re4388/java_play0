@@ -1,0 +1,9 @@
+target/
+.git/
+.github/
+.idea/
+*.iml
+*.log
+logs/
+README.md
+implementation_plan.md

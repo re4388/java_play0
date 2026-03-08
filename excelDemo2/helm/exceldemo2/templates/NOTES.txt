@@ -1,0 +1,12 @@
+1. 取得服務狀態：
+   kubectl get pods -n {{ .Release.Namespace }}
+
+2. 查看 Ingress：
+   kubectl get ingress -n {{ .Release.Namespace }}
+
+3. 若使用本機 hosts：
+   請將 ingress host 指向 k3d loadbalancer IP。
+
+4. 測試健康檢查：
+   kubectl port-forward svc/{{ include "exceldemo2.fullname" . }} 8080:{{ .Values.service.port }} -n {{ .Release.Namespace }}
+   curl http://127.0.0.1:8080{{ .Values.health.readinessPath }}

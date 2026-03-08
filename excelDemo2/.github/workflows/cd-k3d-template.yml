@@ -1,0 +1,17 @@
+name: CD K3d Template
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Notes
+        run: |
+          echo "This is a deployment template workflow."
+          echo "You need to provide your own kubeconfig, cluster access, registry push flow, and secrets."
+          echo "Suggested steps: build image -> push/import image -> helm upgrade --install."

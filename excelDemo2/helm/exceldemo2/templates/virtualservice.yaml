@@ -1,0 +1,31 @@
+{{ if .Values.virtualService.enabled }}
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: {{ include "exceldemo2.fullname" . }}
+  labels:
+{{ include "exceldemo2.labels" . | indent 4 }}
+spec:
+  hosts:
+{{- range .Values.virtualService.hosts }}
+    - {{ . | quote }}
+{{- end }}
+  gateways:
+    - {{ .Values.virtualService.gateway | quote }}
+  http:
+{{- range .Values.virtualService.http }}
+    - match:
+        - uri:
+            prefix: {{ .match.prefix | quote }}
+{{- if .rewrite }}
+      rewrite:
+        uri: {{ .rewrite.uri | quote }}
+{{- end }}
+      timeout: {{ .timeout | quote }}
+      route:
+        - destination:
+            host: {{ include "exceldemo2.fullname" $ }}
+            port:
+              number: {{ $.Values.service.port }}
+{{- end }}
+{{ end }}

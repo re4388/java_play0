@@ -1,0 +1,75 @@
+replicaCount: 1
+
+image:
+  repository: exceldemo2
+  tag: latest
+  pullPolicy: IfNotPresent
+
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+
+podAnnotations: {}
+podLabels: {}
+
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+
+containerPort: 8080
+
+env: []
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+health:
+  livenessPath: /actuator/health/liveness
+  readinessPath: /actuator/health/readiness
+  initialDelaySeconds: 20
+  periodSeconds: 10
+  timeoutSeconds: 3
+  failureThreshold: 3
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 80
+
+ingress:
+  enabled: true
+  className: nginx
+  annotations: {}
+  hosts:
+    - host: exceldemo2.local
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+virtualService:
+  enabled: true
+  gateway: istio-system/istio-ingressgateway
+  hosts:
+    - exceldemo2.local
+  http:
+    - match:
+        prefix: /
+      rewrite: null
+      timeout: 30s
+
+k3d:
+  clusterName: k3d-default
+  namespace: exceldemo2
+  releaseName: exceldemo2

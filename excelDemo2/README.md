@@ -257,3 +257,46 @@ ExcelService bean 準備完成 ✅
 | 7 | `shouldHaveCorrectHeaders` | Header row 欄位名稱正確 |
 | 8 | `shouldHaveCorrectRowCount` | 資料筆數正確 |
 | 9 | `shouldHaveCorrectData` | 資料值與型別轉換正確 |
+
+---
+
+## Docker / Helm / k3d 部署
+
+### Docker build
+
+```bash
+cd excelDemo2
+docker build -t exceldemo2:local .
+```
+
+### 匯入 k3d
+
+```bash
+k3d image import exceldemo2:local -c k3d-default
+```
+
+### Helm 部署
+
+```bash
+helm upgrade --install exceldemo2 ./helm/exceldemo2 \
+  -n exceldemo2 --create-namespace \
+  -f ./helm/exceldemo2/values.yaml \
+  -f ./helm/exceldemo2/values-k3d.yaml
+```
+
+### 一鍵部署
+
+```bash
+./scripts/deploy-k3d.sh exceldemo2 local k3d-default exceldemo2 exceldemo2
+```
+
+### 部署驗證
+
+```bash
+kubectl get all -n exceldemo2
+kubectl get ingress,virtualservice -n exceldemo2
+kubectl port-forward svc/exceldemo2-exceldemo2 8080:8080 -n exceldemo2
+curl http://127.0.0.1:8080/actuator/health/readiness
+```
+
+詳細流程請參考 `docs/deployment-k3d.md`。
