@@ -1,15 +1,12 @@
 package com.ben;
 
-import java.util.Arrays;
+import com.ben.math.Calculator;
 
 public class QuickPlay {
 
     public static void main(String[] args) {
-
-        String a1 = "13in";
-        String[] split = a1.split("in");
-        for (String s: split){
-            System.out.println(s);
-        }
+        Calculator calculator = new Calculator();
+        int res = calculator.add(1, 2);
+        System.out.println(res);
     }
 }
